@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Files</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      background: url('bg.jpg') no-repeat center center;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+
+    .link-box {
+      position: absolute;
+      /* background: rgba(255, 255, 255, 0.7); */
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .link-box a {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    /* Random-ish positions for top and bottom placement */
+    .top1 { top: 20px; left: 10%; }
+    .top2 { top: 30px; right: 15%; }
+    .bottom1 { bottom: 40px; left: 20%; }
+    .bottom2 { bottom: 30px; right: 25%; }
+    .bottom3 { bottom: 50px; left: 50%; transform: translateX(-50%); }
+
+  </style>
+</head>
+<body>
+
+  <div class="link-box top1">
+    <a href="1.cpp" download>1. </a>
+  </div>
+  <div class="link-box bottom1">
+    <a href="1.cpp" download>1. </a>
+  </div>
+  <div class="link-box top2">
+    <a href="1.cpp" download>1. </a>
+  </div>
+  <div class="link-box bottom2">
+    <a href="1.cpp" download>1. </a>
+  </div>
+  <div class="link-box bottom3">
+    <a href="1.cpp" download>1. </a>
+  </div>
+
+</body>
+</html>
